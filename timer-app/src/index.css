@@ -1,0 +1,124 @@
+body{
+  background-color:#fff !important;
+  margin: 0;
+}
+
+
+.app-header{
+  background-color: white;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+h2{
+  padding-bottom: 10px;
+}
+
+.timer-container{
+  border-radius: 5px;
+  border: 1px solid rgb(241, 234, 234);
+  width: 40%;
+  margin-bottom: 8px;
+  padding: 10px;
+}
+
+.timer-form-conatiner{
+  border-radius: 5px;
+  border: 1px solid rgb(241, 234, 234);
+  width: 40%;
+  margin-bottom: 8px;
+}
+
+.editable-timer-container{
+  display: flex;
+  justify-content: center;
+}
+
+.toggle-container{
+    display: flex;
+  justify-content: center;
+}
+
+.header{
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-left: 10px;
+  
+}
+
+.project{
+  font-size: 12px;
+  color: #c7c1c1;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.counter{
+  text-align: center;
+}
+
+.option-button{
+  display: flex;
+  justify-content: end;
+  margin: 14px;
+}
+
+.start-button{
+  width: 100%;
+  color: rgb(98, 182, 238);
+  background-color: #fff;
+  border: 1px solid;
+  padding: 4px;
+}
+
+.start{
+  width: 100%;
+}
+.edit-button{
+  padding: 2px;
+  margin: 4px;
+}
+
+.timer-form-conatiner{
+  padding: 10px;
+}
+
+.form-container{
+  margin-bottom: 5px;
+}
+
+.field{
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+}
+
+.button-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+input{
+  border: 1px solid rgb(241, 234, 234);
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.update{
+  width: 100%;
+  color: rgb(98, 182, 238);
+  background-color: #fff;
+  border: 1px solid;
+  padding: 4px;
+  border-radius: 2px;
+}
+
+.cancel{
+  width: 100%;
+  color: red;
+  background-color: #fff;
+  border: 1px solid;
+  padding: 4px;
+  border-radius: 2px;
+}
